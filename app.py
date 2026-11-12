@@ -27,7 +27,7 @@ INPUT_TMP.mkdir(parents=True, exist_ok=True)
 engine.SESSIONS.mkdir(parents=True, exist_ok=True)
 engine.TRACKS.mkdir(parents=True, exist_ok=True)
 
-app = FastAPI(title="Mashup Studio")
+app = FastAPI(title="VOXSWAP")
 pool = ThreadPoolExecutor(max_workers=2)
 jobs: dict[str, dict] = {}
 jobs_lock = threading.Lock()
@@ -218,5 +218,5 @@ def index():
 
 
 if __name__ == "__main__":
-    print("Mashup Studio -> http://127.0.0.1:8765")
+    print("VOXSWAP -> http://127.0.0.1:8765")
     uvicorn.run(app, host="127.0.0.1", port=8765, log_level="warning")

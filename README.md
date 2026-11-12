@@ -1,4 +1,4 @@
-# Mashup Studio
+# VOXSWAP
 
 Add two tracks (full songs or instrumentals) by uploading audio files or pasting YouTube video URLs into either track slot. The app splits each into vocals and instrumental, detects BPM and key, then puts the vocals from one over the instrumental from the other, time-stretched and pitch-shifted so they match.
 
