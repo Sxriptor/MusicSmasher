@@ -1,0 +1,19 @@
+# torch: install the CUDA build first for GPU separation:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+torch
+demucs>=4.1.0
+huggingface-hub
+lameenc
+julius
+einops
+pyyaml
+tqdm
+dora-search
+librosa
+soundfile
+numpy
+scipy
+fastapi
+uvicorn
+python-multipart
+yt-dlp
